@@ -15,8 +15,8 @@ states = data.state.to_list()
 guessed_states = []
 
 
-while len(guessed_states) <50:
-    user_input = screen.textinput(title=f"{len(guessed_states)}/50 Correct Guess", prompt="Enter Any States Name").lower()
+while len(guessed_states) <28:
+    user_input = screen.textinput(title=f"{len(guessed_states)}/28 Correct Guess", prompt="Enter Any States Name").lower()
     if user_input in states :
         t = turtle.Turtle()
         t.hideturtle()
