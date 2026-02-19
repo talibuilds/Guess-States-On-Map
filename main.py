@@ -28,5 +28,4 @@ while len(guessed_states) <28:
         guessed_states.append(user_input)
 
 
-
 screen.exitonclick()
